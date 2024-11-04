@@ -14,20 +14,28 @@
             font-family: Arial, sans-serif;
         }
 
-        /* Gaya untuk navbar */
-        .navbar {
-            background-color: #80deea; /* Warna biru muda untuk navbar */
-            padding: 1rem;
-        }
+      /* Gaya untuk navbar */
+.navbar {
+    background-color: #00796b; /* Warna hijau gelap untuk navbar */
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan pada navbar */
+}
 
-        .navbar .nav-link {
-            color: #fff;
-        }
+/* Gaya untuk tautan di navbar */
+.navbar-nav .nav-link {
+    color: #ffffff; /* Warna teks putih */
+    font-family: 'Arial', sans-serif; /* Menggunakan font Arial */
+    font-size: 1.1rem; /* Ukuran font sedikit lebih besar */
+    padding: 10px 15px; /* Menambahkan padding untuk ruang */
+    transition: color 0.3s, transform 0.3s; /* Transisi untuk warna dan transformasi */
+}
 
-        .navbar .nav-link:hover {
-            color: #ccc;
-        }
-
+/* Gaya saat hover pada tautan */
+.navbar-nav .nav-link:hover {
+    color: #ffeb3b; /* Warna kuning saat hover */
+    text-decoration: underline; /* Garis bawah saat hover */
+    transform: scale(1.1); /* Efek membesar saat hover */
+}
         .logo {
             width: 100px;
             height: 100px;
@@ -94,33 +102,32 @@
 <body>
     
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Beranda <span class="sr-only">(sekarang)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="profile.html">Profil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="layanankami.html">Layanan Kami</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="galeri.html">Galeri</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="hubungi.html">Hubungi Kami</a>
-                    </li>
-                </ul>
-            </div>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Beranda <span class="sr-only">(sekarang)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Profil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="layanankami.html">Layanan Kami</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galeri.html">Galeri</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hubungi.html">Hubungi Kami</a>
+                </li>
+            </ul>
         </div>
-    </nav>
-    
+    </div>
+</nav>
     <!-- Logo Rumah Sakit -->
     <div class="container">
         <div class="row">

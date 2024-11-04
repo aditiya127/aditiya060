@@ -12,9 +12,28 @@
             padding-top: 100px; /* Sesuaikan sesuai tinggi navbar */
             background-color: #e0f7fa; /* Warna latar belakang cerah */
         }
-        .navbar {
-            background-color: #80deea; /* Warna biru muda untuk navbar */
-        }
+        /* Gaya untuk navbar */
+.navbar {
+    background-color: #00796b; /* Warna hijau gelap untuk navbar */
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan pada navbar */
+}
+
+/* Gaya untuk tautan di navbar */
+.navbar-nav .nav-link {
+    color: #ffffff; /* Warna teks putih */
+    font-family: 'Arial', sans-serif; /* Menggunakan font Arial */
+    font-size: 1.1rem; /* Ukuran font sedikit lebih besar */
+    padding: 10px 15px; /* Menambahkan padding untuk ruang */
+    transition: color 0.3s, transform 0.3s; /* Transisi untuk warna dan transformasi */
+}
+
+/* Gaya saat hover pada tautan */
+.navbar-nav .nav-link:hover {
+    color: #ffeb3b; /* Warna kuning saat hover */
+    text-decoration: underline; /* Garis bawah saat hover */
+    transform: scale(1.1); /* Efek membesar saat hover */
+}
         .map-container {
             margin-top: 30px;
             height: 400px;
